@@ -18,6 +18,8 @@ export const ProviderContext = createContext<IProviderContext>({
   sessionTimer: {},
 });
 
+export const TestContext = createContext({})
+
 export const useSIPProvider = () => {
   return useContext(ProviderContext);
 };
