@@ -12,7 +12,7 @@ import {
   SessionTimer,
 } from "../type";
 
-export const SIPProvider = (props: {
+export const SIPProviderNative = (props: {
   options: SIPProviderOptions;
   children: ReactNode | JSX.Element;
 }): JSX.Element => {
