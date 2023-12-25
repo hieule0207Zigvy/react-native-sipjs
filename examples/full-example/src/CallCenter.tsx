@@ -14,7 +14,11 @@ export const CallCenter = () => {
   const [password, setPassword] = useState<string>("test123");
 
   const [callTo, setCallTo] = useState<string>("7147520454");
-
+  const extraHeaders = [
+    `ani: ${16164413854}`,
+    `conversationId: jhjksdhf8908123ufwehf`,
+    `carrier:03125a29-8ca2-4d0c-86de-ebc3fe5f57a3`
+  ];
   return (
     <div className="flex justify-center">
       <div className="min-w-[700px] flex flex-col gap-5">
@@ -117,7 +121,9 @@ export const CallCenter = () => {
             e.preventDefault();
             await sessionManager?.call(
               `sip:${callTo}@voice.chatchilladev.sip.jambonz.cloud`,
-              {}
+              {
+                extraHeaders,
+              }
             );
           }}
         >
