@@ -200,6 +200,21 @@ postcss@^8.4.27:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+react-native-sipjs@0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/react-native-sipjs/-/react-native-sipjs-0.0.14.tgz#96875b5899a593aa06346ced7f6abf4dd36de17c"
+  integrity sha512-gYW+wVKL0GReNmVD3sRl92Sqo1v+4EL15R6q2SLrGpcxKNu/sq1KPWPT2bT04lD5kljf/lAgiJeYqL/4tpLDCQ==
+  dependencies:
+    sip.js "^0.21.2"
+
+react-native-sipjs@0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/react-native-sipjs/-/react-native-sipjs-0.0.15.tgz#7260912d503d36092a735fa379581fe828e4580e"
+  integrity sha512-CTteSFpcUhz8jwqZgzcEvhJxm43JH4lydArxqUlwO7D7IItOv3tb7HSX2ZAoJh++u/D+44apo+iP7KxVvnMdKw==
+  dependencies:
+    react-native-sipjs "0.0.14"
+    sip.js "^0.21.2"
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

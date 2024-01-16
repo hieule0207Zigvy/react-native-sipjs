@@ -12,11 +12,13 @@ import {
   SessionTimer,
 } from "../type";
 
-export const SIPProvider = (props: {
+interface SIPProviderProps {
   options: SIPProviderOptions;
   children: ReactNode | JSX.Element;
-}): JSX.Element => {
-  const { options, children } = props;
+}
+
+export const SIPProvider: React.FC<SIPProviderProps> = ({ options, children }) => {
+  
   const refAudioRemote = useRef<HTMLAudioElement>(null);
 
   const [sessions, setSessions] = useState<Record<string, Session>>({});
