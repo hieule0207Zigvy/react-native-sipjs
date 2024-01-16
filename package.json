@@ -1,6 +1,6 @@
 {
   "name": "react-native-sipjs",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
@@ -33,7 +33,7 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "react-native-sipjs": "0.0.15",
+    "react-native-sipjs": "0.0.16",
     "sip.js": "^0.21.2"
   },
   "publishConfig": {

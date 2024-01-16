@@ -215,6 +215,14 @@ react-native-sipjs@0.0.15:
     react-native-sipjs "0.0.14"
     sip.js "^0.21.2"
 
+react-native-sipjs@0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/react-native-sipjs/-/react-native-sipjs-0.0.16.tgz#cdc1a7fe11319ecfbb977410127005031b879791"
+  integrity sha512-+XnyZCBD/kE7hyyTTOYl9bCBAsKsbkkFL3vH/9czl86MmgsJiVks6ifVH8MwDxWu5fK7r3aIKC/qjxp9Sd3QeQ==
+  dependencies:
+    react-native-sipjs "0.0.15"
+    sip.js "^0.21.2"
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

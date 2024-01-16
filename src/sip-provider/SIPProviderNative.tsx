@@ -11,12 +11,12 @@ import {
   CONNECT_STATUS,
   SessionTimer,
 } from "../type";
-
-export const SIPProviderNative = (props: {
-  options: SIPProviderOptions;
-  children: ReactNode | JSX.Element;
-}): JSX.Element => {
-  const { children } = props;
+  interface SIPProviderProps {
+    options: SIPProviderOptions;
+    children: ReactNode | JSX.Element;
+  }
+  
+  export const SIPProviderNative: React.FC<SIPProviderProps> = ({ options, children }) => {
   return (
     <>
       <TestContext.Provider
